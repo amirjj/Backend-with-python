@@ -27,3 +27,11 @@ sorted_dict = sorted(my_dict, key=lambda x: x['score'])
 print(sorted_dict)
 my_dict.sort(key= lambda x: x['score'])
 print(my_dict)
+
+#### zip 
+a = "abc"
+b = "def"
+c = "ghij"
+s = list(zip(a, b, c))
+print(s)
+print(list(zip(*s)))
