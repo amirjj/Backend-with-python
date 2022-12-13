@@ -31,3 +31,11 @@ all_dict = {**dict_test, **new_dict} #dict_test & new_dict will not change
 wierd_dict = {1: "one", 1.5: "float", ("john","doe"): "What?"}
 wierd_dict.get(('john', 'doe'))
 
+
+a = dict(one=1, two=2, three=3)
+b = {'one': 1, 'two': 2, 'three': 3}
+c = dict(zip(['one', 'two', 'three'], [1, 2, 3]))
+d = dict([('two', 2), ('one', 1), ('three', 3)])
+e = dict({'three': 3, 'one': 1, 'two': 2})
+f = dict({'one': 1, 'three': 3}, two=2)
+a == b == c == d == e == f
