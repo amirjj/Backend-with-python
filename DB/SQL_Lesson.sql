@@ -18,6 +18,6 @@ ORDER BY order_count DESC
 --for implementing conditions
 --Number 2 is correct
 
-SELECT CustomerID, count(*) AS order_count FROM Orders WHERE Date > '1990-01-01'
+SELECT CustomerID, count(*) AS order_count FROM Orders WHERE CDate > '1990-01-01'
 GROUP BY CustomerID HAVING order_count > 5
 ORDER BY order_count DESC
