@@ -1,0 +1,10 @@
+[flake8]
+exclude =
+    __pycache__
+    Others/
+    Funcs/
+    Basic_vars/
+    Basic_DS/
+
+
+

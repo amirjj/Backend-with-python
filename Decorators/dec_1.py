@@ -19,4 +19,3 @@ def pow2(num):
 
 if __name__ == "__main__":
     print(pow2(10))
-
